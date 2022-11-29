@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+a{
+    display: inline-block;
+}
+.my-btn:hover{
+    font-size: 1.2rem;
+    background-color: #01380f;
+    color: #cfd6e1;
+
+}
+
+/*1st part start here*/
+.bg-change{
+    background-color: #212934;
+    color: #cfd6e1;
+    min-height: 30px;
+}
+.nav-one{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.nav-one ul{
+    list-style: none;
+}
+.nav-one ul li{
+    display: inline;
+    padding-left: 1rem;
+}
+.nav-one ul li a{
+    color: #cfd6e1;
+}
+
+/*2nd section start here*/
+
+.bg-change2{
+    min-height: 30px;
+}
+.bg-change2 a{
+    color: #212529;
+}
+.bg-change2 .logo p a{
+    color: #59ab6e;
+    margin: 1rem 2.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+}
+.nav-part ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.nav-part ul li{
+    list-style-type: none;
+    margin: 2.5rem 2.5rem;
+}
+.nav-part ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.add-cart ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.add-cart ul li{
+    list-style-type: none;
+    margin-top: 2.5rem;
+}
+.add-cart ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
+.head-part{
+    background-color: #efefef;
+    padding: 5rem 4rem;
+}
+.head-part h1{
+    font-size: 3.5rem;
+    font-weight: lighter;
+    color: #59ab6e;
+}
+.head-part h1 a{
+    font-weight: bolder;
+    color: #278d41;
+}
+.head-part h4{
+    font-size: 2.2rem;
+    color: #25282c;
+}
+.head-part p{
+    font-size: 1.2rem;
+    color: #484a4d;
+}
+.head-part p a{
+    color: #3dac59;
+    text-decoration: underline;
+}
+.head-part img{
+    width: 88%;
+}
+.sale-sectionone{
+    width: 35%;
+    padding: 2.8rem 0;
+    margin: 0 auto;
+}
+.sale-sectionone h1{
+    font-size: 3rem;
+    font-weight: 100;
+    color: #212934;
+}
+.sale-sectionone p{
+    color: #25282c;
+}
+
+
+.addto-cartoption{
+    margin-bottom: 3.5rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+
+.bg-change3{
+    background-color: #e9eef5;
+}
+
+.bg-change4{
+    background-color: #fff;
+}
+.bg-change4 .padding-all{
+    padding: 1rem;
+}
+.bg-change4 .padding-all p{
+    font-size: 1.3rem;
+    color: gray;
+}
+.bg-change4 .padding-all h3{
+    font-size: 2.5rem;
+    font-weight:300;
+}
+
+.bg-change4 .image-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img-section{
+    padding: 3.5rem 0;
+}
+.bg-changelast{
+    background-color: #212934;
+    color: #fff;
+    padding: 2.5rem 1.5rem;
+}
+.bg-changelast h2{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.bg-changelast p{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.bg-changelast li{
+    font-size: 1.2rem;
+    font-weight: 200;
+    list-style: none;
+}
+.last-nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 2rem 0;
+    padding-right: 1rem;
+}
+.last-nav ul li a i{
+    text-decoration: none;
+    color: #fff;
+}
+.copy-right{
+    background-color: #101214;
+    color: rgb(139, 134, 134);
+    padding: 1.5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+
+
+@media only screen and (max-width:360px){
+    html, body{
+        font-size: 6px;
+    }
+    .head-part img{
+        width: 70%;
+    }
+    .my-img{
+        width: 25%;
+    }
+
+}
+@media only screen and (max-width:576px){
+    html, body{
+        font-size: 8px;
+    }
+    .head-part img{
+        width: 70%;
+    }
+    .my-img{
+        width: 25%;
+    }
+
+}
+@media only screen and (max-width:768px){
+    html, body{
+        font-size: 10px;
+    }
+    .head-part img{
+        width: 70%;
+    }
+    .my-img{
+        width: 25%;
+    }
+
+}
+@media only screen and (max-width:992px){
+    html, body{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width:1200px){
+    html, body{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:1576px){
+    html, body{
+        font-size: 18px;
+    }
+
+}
